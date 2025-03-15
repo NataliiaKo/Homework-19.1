@@ -1,22 +1,52 @@
 <!DOCTYPE html>
-<html lang="ua">
+<html lang="uk">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="../style.css">
-	<link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Контактна інформація</title>
+	
+	
+	<style>
+		h1{
+		text-align:center;
+		}
+		* {
+		  box-sizing: border-box;
+		}
+		.column {
+		  float: left;
+		  padding: 10px;
+		}
+
+		.left {
+		  width: 50%;
+		}
+
+		.right {
+		  width: 50%;
+		  float: right;
+		}
+
+		.row:after {
+		  content: "";
+		  display: table;
+		  clear: both;
+		}
+	</style>
 </head>
 <body>
-	<nav >
+	<nav>
 		<ul class="menu">
-			<li class="menu"><a href="../index.html">Головна</a></li>
-			<li class="menu"><a href="contact.html">Контакти</a></li>
-			<li class="menu"><a href="gallery.html">Галерея</a></li>
+			<li class="menu"> <a href="../index.html"> Головна </a></li>
+			<li class="menu"> <a href="contact.html">Контакти</a></li>
+			<li class="menu"> <a href="gallery.html">Галерея</a></li>
 		</ul>
 	</nav>
-	<h1> <b>Будемо на зв'язку! Дзвонить чи пишить нам!</b></h1>
-	<div style="display: table;">
-	<div width="50%" style="display: table-cell;">
+	<h1>Залишайтесь на зв'язку! </h1>
+	<div class="row">
+		<div class="column left">
 			<table width="500" height="200">
 			  <tr width="50%" height="30%">
 				<td><b>Електрона пошта власника</b></td>
@@ -31,9 +61,11 @@
 				<td>@mara.cat</td>
 			  </tr>
 			</table>
-	</div>
-	<div width="50%" style="display: table-cell;">
-	<img src="../images/logo.png" />
-	</div>
-	</div>
+		</div>
+		<div class="column right">
+				<img 
+				  src="../images/logo.png"
+				  alt="Black cat" />
+		</div>
 </body>
+</html>
