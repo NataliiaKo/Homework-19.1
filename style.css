@@ -1,4 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body{
+	background-color: #f7efd3;
+	color:#30271e;
+}
+
+h1 {
+  font-family: "Great Vibes", cursive;
+  font-weight: 800;
+  font-size: 80 px;
+  font-style: normal;
+}
+
+
 ul.menu {
+	font-family: "Great Vibes", cursive;
+	font-weight: 800;
+	font-size: 60 px;
+	font-style: normal;
 	list-style: none; 
 	display: flex; 
 	align-items: center; 
@@ -6,10 +25,20 @@ ul.menu {
 }
 li.menu {  
 	text-decoration: none;
-	font-size: 20;
+	font-size: 40 px;
 	margin: 0 1rem;
 	color: darkgrey;
 }
-body{
-	background-color: lightgrey;
+
+ul.paw {
+	text-decoration: none;
+	list-style-image: url("images/paw.png");
+	
+}
+q {
+  font-family: "Great Vibes", cursive;
+  font-weight: 100;
+  font-size: 50 px;
+  font-style: normal;
+  text-align: left;
 }
